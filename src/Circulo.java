@@ -1,3 +1,4 @@
+package geometria.geometria.src;
 
 public class Circulo extends FiguraGeometrica {
 	private double radio;
@@ -6,7 +7,11 @@ public class Circulo extends FiguraGeometrica {
 	
 	public Circulo(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r < 0){
+			r = Math.abs(r);
 		radio = r;
+
+		}
 	}
 
 	@Override
