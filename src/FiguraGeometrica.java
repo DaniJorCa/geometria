@@ -1,4 +1,4 @@
-package geometria.geometria.src;
+package geometria.geometria;
 public abstract class FiguraGeometrica {
 
 	protected String tipoFigura;

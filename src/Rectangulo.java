@@ -1,4 +1,4 @@
-package geometria.geometria.src;
+package geometria.geometria;
 
 public class Rectangulo extends FiguraGeometrica {
 	private double l1;
