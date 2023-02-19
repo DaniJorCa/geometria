@@ -1,3 +1,4 @@
+package geometria.geometria.src;
 /**
  * @author Daniel Jordan Carreño
  * @version 1.2
@@ -7,7 +8,6 @@ public class Rectangulo extends FiguraGeometrica {
 	private double l2;
 
 	/**
-	 *
 	 * @param tipoFigura String descripcion figura
 	 * @param lG double del lado del lado grande
 	 * @param lP double del lado pequeño
@@ -19,7 +19,6 @@ public class Rectangulo extends FiguraGeometrica {
 	}
 
 	/**
-	 *
 	 * @return Devuelve un primitivo double indicandonos el area
 	 */
 	@Override
@@ -28,7 +27,6 @@ public class Rectangulo extends FiguraGeometrica {
 	}
 
 	/**
-	 *
 	 * @return Devuelve un primitivo double indicandonos el perimetro
 	 */
 	@Override
